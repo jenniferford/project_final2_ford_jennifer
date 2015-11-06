@@ -27,6 +27,8 @@ body {
     font-family: 'Futura';
 }
 
+/* Typography */
+
 h1{
 	color:#8b1d0e;
 	margin: 1em 1em 1em 1em;
@@ -49,6 +51,14 @@ a {
 	color: #b24c1e;
 	text-decoration: none;
 }
+
+a:hover {
+    font-family: 'Futura';
+	color: #000000;
+    text-decoration: underline;
+}
+
+/* Header */
 
 header {
 	background-color: #8b1d0e;
@@ -75,7 +85,10 @@ header {
 
 #logo{
 	padding-left:2em;
+	padding-right: 2em;
 }
+
+/* Main */
 
 #wrapper {
     margin:auto;
@@ -99,6 +112,7 @@ header {
     background-color:#666666;
 }
 
+/* Button */
 
 .sample button {
     font-family: 'Futura';
@@ -118,6 +132,8 @@ header {
     text-decoration: none;
     line-height:40px;
 }
+
+/* Image Links */
 
 .image_links{
 	padding:1em;
@@ -143,6 +159,8 @@ header {
         margin:auto;
    	}
 }
+
+/* Footer */
 
 footer {
 		background-color: #8b1d0e;
