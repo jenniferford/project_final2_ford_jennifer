@@ -131,6 +131,19 @@ header {
 	padding:1em;
 }
 
+@media all and (max-width: 650px){
+    .image_links img {
+        width: calc(100%);
+   	}
+}
+
+@media all and (max-width: 651px, max-height:500px;){
+    .image_links img {
+        width: calc(100%);
+        margin:auto;
+   	}
+}
+
 footer {
 		background-color: #8b1d0e;
 	}
